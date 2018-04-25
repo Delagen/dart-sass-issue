@@ -1,0 +1,18 @@
+{
+  "name": "dart-sass-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"npm run test:plain && npm run test:api",
+    "test:plain": "sass node_modules/bootstrap/scss/bootstrap.scss build.cli.css",
+    "test:api": "node test.js"
+  },
+  "keywords": [],
+  "author": "Delagen <delagen@gmail.com> (https://delagen.blogspot.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "~4.1.0",
+    "sass": "~1.2.1"
+  }
+}
